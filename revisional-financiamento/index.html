@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ação Revisional de Contratos Bancários | Janaina Costa Advocacia</title>
+<meta name="description" content="Análise jurídica individualizada de contratos bancários: financiamento de veículos, empréstimos, cartão de crédito, conta corrente e cheque especial. Atendimento on-line em todo o Brasil.">
+<style>
+:root {
+  --navy:#061f39;
+  --navy2:#0b3156;
+  --gold:#c99535;
+  --gold2:#e0b04c;
+  --cream:#f7f1e7;
+  --soft:#fbf8f3;
+  --text:#10243a;
+  --line:#e7ddce;
+  --white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff;line-height:1.55}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.08;margin:0 0 18px;color:var(--navy)}
+h1{font-size:clamp(36px,3.6vw,58px)}
+h2{font-size:clamp(31px,3.3vw,48px)}
+h3{font-size:22px}
+p{font-size:17px;margin:0 0 16px}
+.wrap{max-width:1180px;margin:auto;padding:0 28px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#bd8628,#e0b04c);color:#fff;text-decoration:none;font-weight:700;padding:15px 24px;border-radius:4px;box-shadow:0 8px 18px rgba(0,0,0,.10)}
+.btn:hover{filter:brightness(1.04)}
+
+/* CABEÇALHO SEPARADO */
+.site-header{background:#fff;border-bottom:1px solid #eee;position:relative;z-index:10}
+.header-inner{max-width:1180px;margin:auto;padding:14px 28px;display:grid;grid-template-columns:220px 1fr 235px;align-items:center;gap:24px;min-height:96px}
+.header-logo{width:180px;height:70px;object-fit:contain;object-position:left center}
+.nav{display:flex;justify-content:center;gap:34px;align-items:center}
+.nav a{text-decoration:none;color:var(--navy);font-size:15px;font-weight:700;position:relative}
+.nav a:hover::after,.nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:-10px;height:2px;background:var(--gold)}
+.header-cta{justify-self:end}
+
+/* HERO */
+.hero{background:var(--navy);color:#fff}
+.hero-grid{max-width:1440px;margin:auto;display:grid;grid-template-columns:1.08fr .92fr;min-height:545px}
+.hero-copy{padding:48px max(28px,calc((100vw - 1180px)/2));padding-right:50px;display:flex;flex-direction:column;justify-content:center}
+.hero h1{color:#fff;margin-bottom:15px}
+.hero .gold{color:var(--gold2)}
+.hero-sub{font-family:Georgia,"Times New Roman",serif;color:var(--gold2);font-size:clamp(22px,2vw,30px);font-weight:700;line-height:1.15;margin-bottom:16px}
+.hero p{max-width:700px}
+.hero-photo{min-height:545px;background:url('hero-bancario.jpg') center 35% / cover no-repeat}
+.trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:23px;font-size:13px}
+.trust span{border-top:1px solid #a7792b;padding-top:10px}
+
+/* CONTEÚDO */
+.section{padding:66px 0}
+.soft{background:var(--soft)}
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}
+.product{background:#fff;border:1px solid var(--line);overflow:hidden}
+.product img{width:100%;height:165px;object-fit:cover;display:block}
+.product-body{padding:20px}
+.product .num{color:var(--gold);font-weight:700;font-size:18px}
+.product h3{font-family:Arial,Helvetica,sans-serif;font-size:18px;margin:6px 0 10px;line-height:1.15}
+.product p{font-size:16px}
+.notice{margin-top:26px;padding:20px 24px;background:#f4eee5;border-left:3px solid var(--gold);font-size:16px}
+
+.split{display:grid;grid-template-columns:1fr 1fr;align-items:stretch}
+.split-copy{padding:62px max(34px,calc((100vw - 1180px)/2));padding-right:56px}
+.split-photo{min-height:450px;background:url('analise-contrato.jpg') center/cover no-repeat}
+
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}
+.feature{background:#fff;border:1px solid var(--line);padding:22px}
+.feature b{display:block;margin-bottom:7px;color:var(--navy)}
+.feature p{font-size:15px;margin:0}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:30px}
+.step{border-left:1px solid #d6b16c;padding-left:18px}
+.step .n{color:var(--gold);font-weight:700;font-size:18px}
+.step h3{font-family:Arial,Helvetica,sans-serif;font-size:18px;margin:8px 0 8px}
+.step p{font-size:15px}
+
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:25px}
+details{background:#fff;border:1px solid #e4ddd3;padding:16px 18px}
+summary{cursor:pointer;font-weight:700;color:var(--navy)}
+details p{font-size:15px;margin:12px 0 0}
+
+.final{background:linear-gradient(90deg,rgba(6,31,57,.98),rgba(6,31,57,.90)),url('cartao-credito.jpg') center/cover;color:#fff;padding:56px 0}
+.final h2{color:#fff}
+.final-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:36px;align-items:center}
+
+footer{padding:30px 0;background:#fff}
+.footer-grid{display:grid;grid-template-columns:210px 1fr;gap:28px;align-items:center}
+.footer-logo{width:190px}
+.footer-info{display:flex;gap:20px;flex-wrap:wrap;font-size:13px}
+.legal{font-size:11px;color:#69747d;margin-top:17px}
+
+@media(max-width:900px){
+  .header-inner{grid-template-columns:1fr auto;min-height:84px;padding:10px 22px}
+  .header-logo{width:150px;height:62px}
+  .nav{display:none}
+  .header-cta{font-size:13px;padding:12px 15px}
+  .hero-grid,.split,.final-grid,.footer-grid{grid-template-columns:1fr}
+  .hero-copy{padding:40px 24px 42px}
+  .hero-photo{min-height:350px;background-position:center 28%}
+  .product-grid,.features,.steps,.faq{grid-template-columns:1fr}
+  .split-copy{padding:48px 24px}
+  .split-photo{min-height:340px}
+  .section{padding:50px 0}
+  .wrap{padding:0 22px}
+}
+@media(max-width:520px){
+  .header-inner{grid-template-columns:1fr}
+  .header-logo{justify-self:center}
+  .header-cta{justify-self:center;width:100%;max-width:270px}
+  h1{font-size:36px}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header" id="inicio">
+  <div class="header-inner">
+    <img class="header-logo" src="logo-janaina-costa.png" alt="Janaina Costa Advocacia">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="active" href="#inicio">Início</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn header-cta" href="https://wa.me/5541992015951?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20do%20meu%20contrato%20banc%C3%A1rio.">Fale pelo WhatsApp</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">Ação revisional · contratos bancários</div>
+      <h1>VOCÊ TEM UM CONTRATO COM BANCO OU FINANCEIRA E <span class="gold">NÃO ENTENDE POR QUE A DÍVIDA FICOU TÃO ALTA?</span></h1>
+      <div class="hero-sub">Seu contrato pode merecer uma análise mais detalhada.</div>
+      <p>Financiamentos, empréstimos, cartões de crédito e outras operações bancárias podem envolver diferentes juros, tarifas, encargos e condições contratuais.</p>
+      <p>Uma análise jurídica individualizada permite compreender como a dívida foi formada, conferir os documentos da operação e identificar se existem questões juridicamente relevantes a serem discutidas.</p>
+      <div><a class="btn" href="https://wa.me/5541992015951?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20do%20meu%20contrato%20banc%C3%A1rio.">Quero analisar meu contrato →</a></div>
+      <div class="trust">
+        <span>Análise individualizada</span>
+        <span>Atendimento sigiloso</span>
+        <span>100% on-line em todo o Brasil</span>
+      </div>
+    </div>
+    <div class="hero-photo" role="img" aria-label="Pessoa analisando documentos bancários"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">Qual é a sua situação?</div>
+    <h2>Veja se o seu caso se encaixa.</h2>
+
+    <div class="product-grid">
+      <div class="product">
+        <img src="financiamento-veiculo.jpg" alt="Financiamento de veículo">
+        <div class="product-body">
+          <div class="num">01.</div>
+          <h3>FINANCIAMENTO DE VEÍCULO</h3>
+          <p>Você financiou carro, moto ou outro veículo e quer compreender melhor as condições e o custo do contrato.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="emprestimo-pessoal.jpg" alt="Empréstimo ou crédito pessoal">
+        <div class="product-body">
+          <div class="num">02.</div>
+          <h3>EMPRÉSTIMO OU CRÉDITO PESSOAL</h3>
+          <p>A dívida aumentou, as parcelas estão pesando ou você tem dúvidas sobre juros, encargos e condições da contratação.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="cartao-credito.jpg" alt="Cartão de crédito">
+        <div class="product-body">
+          <div class="num">03.</div>
+          <h3>CARTÃO DE CRÉDITO</h3>
+          <p>Você paga, parcela ou renegocia a fatura, mas tem dificuldade para compreender a evolução da dívida.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="conta-corrente.jpg" alt="Conta corrente e cheque especial">
+        <div class="product-body">
+          <div class="num">04.</div>
+          <h3>CONTA CORRENTE E CHEQUE ESPECIAL</h3>
+          <p>Existem tarifas, encargos ou operações de crédito vinculadas à conta que precisam ser compreendidos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="notice">
+      <strong>Importante:</strong> a análise oferecida nesta página <strong>não abrange financiamento imobiliário.</strong> Outras operações bancárias podem ser avaliadas conforme suas características.
+    </div>
+  </div>
+</section>
+
+<section class="split soft">
+  <div class="split-copy">
+    <div class="eyebrow">Não é apenas o valor da parcela que importa</div>
+    <h2>Cada detalhe do contrato pode fazer diferença.</h2>
+    <p>Para compreender uma dívida bancária, pode ser necessário analisar o contrato, os documentos da operação, os pagamentos realizados e a evolução da cobrança.</p>
+    <p>Juros, CET, tarifas, seguros, serviços agregados, encargos e outras condições contratuais podem impactar o custo da operação e precisam ser avaliados dentro do contexto de cada caso.</p>
+    <a class="btn" href="https://wa.me/5541992015951?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20do%20meu%20contrato%20banc%C3%A1rio.">Quero saber mais sobre meu caso →</a>
+  </div>
+  <div class="split-photo" role="img" aria-label="Análise de contrato bancário"></div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">O que é analisado?</div>
+    <h2>Contrato, cobrança e evolução da dívida.</h2>
+    <div class="features">
+      <div class="feature"><b>01 · CONTRATAÇÃO</b><p>Exame dos documentos, condições pactuadas e informações apresentadas na operação.</p></div>
+      <div class="feature"><b>02 · CUSTO DA OPERAÇÃO</b><p>Análise dos elementos que compõem o custo do crédito, conforme o tipo de contrato.</p></div>
+      <div class="feature"><b>03 · COBRANÇA</b><p>Conferência dos pagamentos, documentos e informações relacionados à evolução da dívida.</p></div>
+      <div class="feature"><b>04 · POSSÍVEIS MEDIDAS</b><p>Definição dos caminhos juridicamente adequados conforme o que for identificado na análise.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section soft" id="como-funciona">
+  <div class="wrap">
+    <div class="eyebrow">Como funciona a análise</div>
+    <h2>Um processo simples e individualizado.</h2>
+    <div class="steps">
+      <div class="step"><div class="n">01</div><h3>Envio dos documentos</h3><p>Contrato, faturas, extratos, comprovantes de pagamento e demais documentos relacionados à operação.</p></div>
+      <div class="step"><div class="n">02</div><h3>Análise jurídica</h3><p>Exame técnico do contrato e da cobrança conforme as características da operação bancária.</p></div>
+      <div class="step"><div class="n">03</div><h3>Avaliação do caso</h3><p>Identificação das questões juridicamente relevantes e das alternativas que podem ser consideradas.</p></div>
+      <div class="step"><div class="n">04</div><h3>Orientação</h3><p>Apresentação dos próximos passos e da estratégia adequada à situação encontrada.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="duvidas">
+  <div class="wrap">
+    <div class="eyebrow">Dúvidas frequentes</div>
+    <h2>Perguntas que recebemos com mais frequência.</h2>
+
+    <div class="faq">
+      <details><summary>Quais contratos podem ser analisados?</summary><p>Financiamento de veículos, empréstimos e crédito pessoal, cartão de crédito, conta corrente, cheque especial e outras operações bancárias compatíveis. Esta página não abrange financiamento imobiliário.</p></details>
+      <details><summary>Preciso estar com os pagamentos em atraso?</summary><p>Não. A análise pode ser realizada mesmo quando o contrato está sendo pago normalmente.</p></details>
+      <details><summary>Quais documentos preciso enviar?</summary><p>Depende do produto bancário. Podem ser necessários contrato, faturas, extratos, comprovantes de pagamento, boletos e comunicações da instituição financeira.</p></details>
+      <details><summary>Consigo analisar um contrato já quitado?</summary><p>A possibilidade depende das circunstâncias do caso, da documentação disponível e dos prazos jurídicos aplicáveis.</p></details>
+      <details><summary>A análise garante redução da dívida ou da parcela?</summary><p>Não. A análise serve para identificar se existe questão juridicamente relevante. Eventual alteração de valores depende do caso concreto e da medida adequada.</p></details>
+      <details><summary>Uma ação revisional impede busca e apreensão de veículo?</summary><p>Não automaticamente. Se houver atraso, notificação ou ação de busca e apreensão, a situação deve ser analisada especificamente e com rapidez.</p></details>
+      <details><summary>Vocês atendem em todo o Brasil?</summary><p>Sim. O atendimento é realizado on-line em todo o Brasil.</p></details>
+      <details><summary>Financiamento imobiliário está incluído?</summary><p>Não. A análise divulgada nesta página não abrange financiamento imobiliário.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="contato">
+  <div class="wrap final-grid">
+    <div>
+      <div class="eyebrow">Janaina Costa Advocacia</div>
+      <h2>SEU CONTRATO BANCÁRIO PODE MERECER UMA NOVA ANÁLISE.</h2>
+      <p>Entenda o que está por trás da sua dívida e saiba quais medidas podem ser avaliadas no seu caso.</p>
+    </div>
+    <div>
+      <a class="btn" href="https://wa.me/5541992015951?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20do%20meu%20contrato%20banc%C3%A1rio.">Quero analisar meu contrato →</a>
+      <div class="trust"><span>Atendimento sigiloso</span><span>100% on-line em todo o Brasil</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <img class="footer-logo" src="logo-janaina-costa.png" alt="Janaina Costa Advocacia">
+      <div class="footer-info">
+        <strong>Janaina de Carvalho da Costa</strong>
+        <span>OAB/PR 100.200</span>
+        <span>Curitiba/PR</span>
+        <span>(41) 99201-5951</span>
+        <span>Atendimento on-line em todo o Brasil</span>
+      </div>
+    </div>
+    <p class="legal">Conteúdo informativo. A existência de irregularidade, medida jurídica cabível e eventual alteração de valores dependem da análise individual dos fatos, documentos, contrato e legislação aplicável. Não há promessa de resultado.</p>
+  </div>
+</footer>
+
+</body>
+</html>
