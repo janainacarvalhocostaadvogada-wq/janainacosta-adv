@@ -1,1 +1,16 @@
-Landing Page - Isenção de Imposto de Renda por Doença Grave
+LANDING PAGE — ISENÇÃO DE IR POR DOENÇA GRAVE
+Janaina Costa Advocacia
+
+Versão final preparada para publicação em:
+janainacosta.adv.br/isencao-ir/
+
+Arquivos:
+- index.html
+- logo-janaina-costa.png
+- hero-aposentadoria.jpg
+- aposentado-documentos.jpg
+- ir-desk.jpg
+- documentos-medicos.jpg
+
+No GitHub, crie a pasta isencao-ir na raiz do repositório e envie TODOS os arquivos deste pacote para dentro dela.
+Não renomeie os arquivos.
