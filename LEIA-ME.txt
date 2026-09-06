@@ -1,0 +1,24 @@
+VERSÃO FINAL REVISADA
+Correções incorporadas:
+- logo maior no topo;
+- nome JANAINA COSTA ADVOCACIA ao lado da logo;
+- maior distância entre headline e card da primeira dobra;
+- imagens recortadas sem texto gráfico residual;
+- numeração única nos quatro critérios;
+- restante da estrutura preservado;
+- WhatsApp (41) 99201-5951;
+- Curitiba - PR e atendimento on-line em todo o Brasil.
+O e-mail profissional ainda não foi inserido porque ainda não foi criado.
+Para visualizar: extraia o ZIP inteiro e abra index.html.
+
+
+ATUALIZAÇÃO V2:
+- fotos das duas primeiras seções substituídas por recortes limpos, sem textos ou elementos gráficos embutidos.
+- restante da landing page preservado.
+
+
+ATUALIZAÇÃO V3:
+- primeira e segunda seções reduzidas para reproduzir as proporções do mockup aprovado;
+- título, card lateral e fotos menores;
+- menos altura vertical e mais respiro horizontal;
+- restante da landing page preservado.
